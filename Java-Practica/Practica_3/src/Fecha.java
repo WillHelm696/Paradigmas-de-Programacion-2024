@@ -44,14 +44,17 @@ public class Fecha {
     }
     //Metodos
     public void leer() {
+        System.out.print("Dia(1-31): ");
         int nuevoDia = scan.nextInt();
         if (dia < 1 || dia > 31) {
             System.out.println("La dia debe ser entre 1 a 31!");
         }
+        System.out.print("Mes (1-12): ");
         int nuevoMes = scan.nextInt();
         if (mes < 1 || mes > 12) {
             System.out.println("La mes debe ser entre 1 a 12!");
         }
+        System.out.print("Año(1900-2050)");
         int nuevoAño = scan.nextInt();
         if (año < 1900 || mes > 2050){
             System.out.println("La año debe ser entre 1900 a 2050!");

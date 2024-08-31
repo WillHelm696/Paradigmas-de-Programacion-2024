@@ -1,3 +1,5 @@
+package Practica_2;
+
 import java.util.Scanner;
 public class Ejercicio_6 {
     Scanner sc = new Scanner(System.in);

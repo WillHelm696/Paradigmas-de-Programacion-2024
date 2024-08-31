@@ -1,3 +1,4 @@
+package Practica_2;
 public class Ejercicio_1 {
 
     int a = 0;
@@ -54,7 +55,8 @@ public class Ejercicio_1 {
         b += a;
         b -= a;
         ++b;
-        a = ++b; //b =–a+b;
+        a = ++b;
+        //b =–a+b;
         System.out.println("j) Para b=2 y b=2 entonces a++; b += a; a *= 4; b -= a; ++b; a = ++b; b =–a+b; es a=" + a + " b=" + b + " c=" + c);
     }
 

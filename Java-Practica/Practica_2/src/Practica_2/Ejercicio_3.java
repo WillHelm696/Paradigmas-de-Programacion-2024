@@ -1,3 +1,5 @@
+package Practica_2;
+
 import java.util.Arrays;
 import java.util.Random;
 public class Ejercicio_3 {

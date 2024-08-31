@@ -1,3 +1,5 @@
+package Practica_2;
+
 public class Ejercicio_2 {
 
     //1. Implementar un programa que dado dos números informe cual es el mayor.

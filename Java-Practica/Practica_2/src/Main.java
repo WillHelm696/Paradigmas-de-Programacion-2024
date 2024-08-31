@@ -1,16 +1,20 @@
+import Practica_2.Ejercicio_2;
+import Practica_2.Ejercicio_3;
+import Practica_2.Ejercicio_4;
+import Practica_2.Ejercicio_6;
+
 import java.util.Scanner;
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        /*
-        Scanner valor = new Scanner(System.in);
-        System.out.println("ingrese 4 valores Numericos");
-        int a = valor.nextInt() ;
-        int b = valor.nextInt() ;
-        int n = valor.nextInt() ;
-        int m = valor.nextInt() ;
 
+        Scanner valor = new Scanner(System.in);
+
+        int a = 1 ;
+        int b = 2 ;
+        int n = 3 ;
+        int m = 4 ;
         Ejercicio_1 Obj_1 = new Ejercicio_1();
 
         System.out.println("Ejercicio 1 - Actividad 1---------------------------------------------------------------------------------");
@@ -20,7 +24,6 @@ public class Main {
         System.out.println("Ejercicio 2 - Actividad 1---------------------------------------------------------------------------------");
 
         Ejercicio_2 Obj_2 = new Ejercicio_2();
-
         int may = Obj_2.Mayor(a,b);
         System.out.println("El mayor entre "+a+" y "+b+" es:"+may);
         System.out.println("Ejercicio 2 - Actividad 2---------------------------------------------------------------------------------");
@@ -92,7 +95,6 @@ public class Main {
 
         System.out.println("Ejercicio 6 - Actividad 1---------------------------------------------------------------------------------");
         Obj_6.sumador();
-        */
 
         // Método main para crear una instancia de Persona
         Persona persona1 = new Persona("Meliza", " Perez", "Negro", 30);
@@ -100,17 +102,17 @@ public class Main {
         persona1.cambiarApellido("Andres");
         persona1.cumplirAños();
         persona1.presentarse();
-
+        System.out.println("Ejercicio - Actividad ---------------------------------------------------------------------------------");
         // Método main para crear una instancia de Punto
         Punto punto1 =new Punto(2,4,5,6);
         punto1.distancia();
-
+        System.out.println("Ejercicio - Actividad ---------------------------------------------------------------------------------");
         // Método main para crear una instancia de Sumatoria
         Sumatoria sumatoria1 = new Sumatoria();
         Sumatoria sumatoria2 = new Sumatoria(3,4);
         sumatoria1.sumar();
         sumatoria2.sumar();
-
+        System.out.println("Ejercicio - Actividad ---------------------------------------------------------------------------------");
         // Método main para crear instancias de Libro y mostrar sus detalles
         Libro libro2 = new Libro("978-0-452-28423-4", "1984", "George Orwell", 328);
         Libro libro3 = new Libro("978-0-7432-7356-5", "Cien Años de Soledad", "Gabriel García Márquez", 417);
@@ -122,6 +124,5 @@ public class Main {
         libro3.infoDelLibro();
         libro4.infoDelLibro();
         libro5.infoDelLibro();
-
     }
 }
