@@ -1,3 +1,4 @@
+package Ejercicio_5;
 /*Ejercicio 5
 Crear una clase Rectangulo que modele rectángulos por medio de cuatro puntos (los vértices).
 Dispondrá de dos constructores: uno que cree un rectángulo partiendo de sus cuatro
@@ -5,17 +6,16 @@ vértices y otro que cree un rectángulo partiendo de la base y la altura, de fo
 vértice inferior izquierdo esté en (0,0). La clase también incluirá un método para calcular
 la superficie y otro que desplace el rectángulo en el plano.
 */
-package Ejercicio_5;
-public class Rectangulo {
+public class rectangulo {
     //Atributos
 
-    Punto puntoA = new Punto();
-    Punto puntoB = new Punto();
-    Punto puntoC = new Punto();
-    Punto puntoD = new Punto();
+    punto puntoA = new punto();
+    punto puntoB = new punto();
+    punto puntoC = new punto();
+    punto puntoD = new punto();
 
     //Constructor
-    public Rectangulo(int Ax,int Ay,int Bx,int By,int Cx,int Cy,int Dx,int Dy) {
+    public rectangulo(int Ax, int Ay, int Bx, int By, int Cx, int Cy, int Dx, int Dy) {
         if (Ax == Bx && Ay == Cy && Bx==Dx && Cy == Dy ) {
             puntoA.setX(Ax);
             puntoA.setY(Ay);
@@ -29,7 +29,7 @@ public class Rectangulo {
             System.out.println("El Rectangulo no es valido");
         }
     }
-    public Rectangulo(int base, int altura) {
+    public rectangulo(int base, int altura) {
         puntoA.setX(0);
         puntoA.setY(0);
         puntoB.setX(0);

@@ -1,12 +1,12 @@
 package Ejercicio_5;
-class Punto {
+class punto {
     private double x;
     private double y;
 
     // Constructor
-    public Punto() {}
+    public punto() {}
 
-    public Punto(double x, double y) {
+    public punto(double x, double y) {
         this.x = x;
         this.y = y;
     }

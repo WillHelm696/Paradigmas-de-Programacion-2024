@@ -25,19 +25,19 @@ Incluir, al menos, los siguientes métodos:
     mayorQue(Fecha): indica si la fecha es posterior a la proporcionada.
 */
 import java.util.Scanner;
-public class Fecha {
+public class fecha {
     //Atributos
     Scanner scan = new Scanner(System.in);
     private int dia;
     private int mes;
     private int año;
     //Constructor
-    public Fecha() {
+    public fecha() {
         this.dia = 1;
         this.mes = 1;
         this.año = 1900;
     }
-    public Fecha(int dia, int mes, int año) {
+    public fecha(int dia, int mes, int año) {
         this.dia = dia;
         this.mes = mes;
         this.año = año;

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Ahorcado {
+public class ahorcado {
     private char[] palabra;
     private char[] encontradas;
     private int encontrados;
@@ -10,7 +10,7 @@ public class Ahorcado {
     private int intentos;
     Scanner sc = new Scanner(System.in);
 
-    public Ahorcado(String palabra) {
+    public ahorcado(String palabra) {
         this.encontrados=0;
         this.faltantes = palabra.length();
         this.palabra = new char[palabra.length()];

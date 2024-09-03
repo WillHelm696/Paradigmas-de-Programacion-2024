@@ -10,7 +10,7 @@ cuenta (porcentaje). Define en la clase los siguientes métodos:
     Método que nos permita mostrar el saldo de la cuenta
     Método que nos permita mostrar todos los datos de la cuenta.
 */
-public class Cuenta {
+public class cuenta {
     //Atributos
     private int numeroCuenta;
     private int dni;
@@ -18,14 +18,14 @@ public class Cuenta {
     private double saldo;
 
     //Constructor
-    public Cuenta(int numeroCuenta, int dni, double saldo, int interes) {
+    public cuenta(int numeroCuenta, int dni, double saldo, int interes) {
         this.numeroCuenta = numeroCuenta;
         this.dni = dni;
         this.saldo = saldo;
         this.interes = interes;
     }
 
-    public Cuenta(){}
+    public cuenta(){}
     //Metodos
     public void actualizarSaldo() {
         this.saldo = this.saldo + (interes/360)*(this.saldo);
