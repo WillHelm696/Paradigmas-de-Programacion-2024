@@ -1,0 +1,8 @@
+
+--
+suma :: (Int,Int) -> Int
+suma (x,y) = x+y
+
+--Ejemplo de funci´on con m´ultiples valores:
+deCeroA :: Int -> [Int]
+deCeroA n = [0..n]
