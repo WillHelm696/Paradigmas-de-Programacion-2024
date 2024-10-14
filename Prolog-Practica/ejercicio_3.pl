@@ -125,25 +125,3 @@ lista_de_números(N,M,L).
 /*20. Definir la relación entre(N1,N2,X) (equivalente a between) que se verifique si X es un
 número entero tal que N1 ≤ X ≤ N2.*/
 entre(N1,N2,X).
-
-
-
-%Ejercicio 3
-
-%1
-primero([X|L],X).
-%2
-resto([X|L1],L1).
-%3
-construye(X,L1,[X|L1]).
-%4
-pertenece(X,[X|_]).
-pertenece(X,[_|L]):-pertenece(X,L).
-%5
-concantena([],L3,L3).
-concantena([X|L1],L2,[X|L3]):-concantena(L1,L2,L3).
-%6
-
-%13
-longitud([],0).
-longitud([_|R],N):-longitud(R,K),N is K+1.
